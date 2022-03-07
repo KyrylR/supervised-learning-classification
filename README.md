@@ -18,6 +18,9 @@ In a statement,
 ## 2. Data
 
 [Original data](https://archive.ics.uci.edu/ml/datasets/heart+disease)
+
+***
+
 [Kaggle](https://www.kaggle.com/mragpavank/heart-diseaseuci)
 
 ## 3. Evaluation 
@@ -67,3 +70,18 @@ This is where you'll get different information about each feature in our data.
     * 7: reversible defect: no proper blood movement when exercising
 14. target - have disease or not (1=yes, 0=no) (= the predicted attribute)
 
+## 5. Modeling
+
+We're going to try 3 different machine learning models:
+   1. Logistic Regression
+   2. K-Nearest Neighbours Classifier
+   3. Random Forest Classifier
+
+## 6. Experimentation
+
+If you haven't hit your evaluation metric yet... ask yourself...
+
+* Could you collect more data?
+* Could you try a better model? Like CatBoost or XGBoost?
+* Could you improve the current models? (beyond what we've done so far)
+* If your model is good enough (you have hit your evaluation metric) how would you export it and share it with others?
